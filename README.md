@@ -44,9 +44,7 @@ To run this project locally, you will need:
 
 3. Open the `index.html` file in your preferred web browser to view the project.
 
-### Live Demo
 
-You can view the live version of the Tribute Page [here](https://github.com/openSourceEzio/Project_001-Tribute-Page) (if hosted on GitHub Pages or another platform).
 
 ## Contributing
 
