@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. P. J. Abdul Kalam</title>
+    
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">  
+    <style>
+        body {
+            background-color: #380000;
+            margin: 0; /* Remove default margins */
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: rgb(0, 0, 0);
+            border-bottom: 3px solid #FFD700; /* Gold underline */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            position: fixed; /* Sticky to the top */
+            top: 0;
+            left: 0;
+            width: 100%; /* Full width */
+            z-index: 10; /* Keep it above content */
+        }
+
+        /* Navbar List */
+        nav .nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: #FFD700;
+        }
+
+        /* Navbar Items */
+        nav .nav-list li a {
+            display: block;
+            color: #FFD700;
+            text-align: center;
+            padding: 14px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s ease; /* Smooth hover effect */
+        }
+
+        /* Navbar Hover Effect */
+        nav .nav-list li a:hover {
+            background-color: #FFD700;
+            color: #000; /* Black text on hover */
+            border-radius: 5px;
+            box-shadow: 0px 2px 10px rgba(255, 215, 0, 0.7);
+        }
+
+        /* Navbar Responsive Design */
+        @media (max-width: 768px) {
+            nav .nav-list {
+                flex-direction: column; /* Stack items vertically */
+                text-align: center;
+            }
+            nav .nav-list li a {
+                padding: 10px;
+                font-size: 16px;
+            }
+        }
+
+        /* Image Styling */
+        img {
+            width: 80%; /* Responsive width */
+            max-width: 950px; /* Limit maximum size */
+            display: block;
+            margin: 120px auto 0 auto; /* Adjust spacing from navbar */
+            filter: drop-shadow(10px 10px 20px #FFD700); /* Gold shadow */
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>  
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="About Topic.html">About Topic</a></li>
+            <li><a href="About Vasu.html">About "Vasu"</a></li>
+        </ul>
+    </nav>
+
+    <!-- Centered Image -->
+    <img src="dr-apj-abdul-kalam-png-hd-images--thumbnail-1658862751.png" alt="Portrait of Dr. A. P. J. Abdul Kalam">
+</body>
+</html>
